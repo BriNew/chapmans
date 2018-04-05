@@ -11,16 +11,7 @@ export class Nav extends React.Component {
 		return(
 			<div>
 				<nav>
-					<ul className="nav_ul">
-						<li className="nav_li">
-							<Link to='/signin'>Sign In</Link>
-						</li>	
-						<li className="nav_li">
-							<Link to='/rocks'>Inventory</Link>
-						</li>					
-						<li className="nav_li">
-							<Link to='/contactmain'>Contact</Link>
-						</li>
+					<ul className="nav_ul">					
 						<li className="nav_li">
 							<Link to='/photos'>Gallery</Link>
 						</li>
@@ -34,16 +25,16 @@ export class Nav extends React.Component {
 							<Link to='/'>Home</Link>
 						</li>
 						<li className="social_li social_li_fb">
-							<a target="_blank" href="https://www.facebook.com/pages/Chapmans-Gem-Mineral-Shop-Museum/127570647298100" className="fa fa-facebook"></a>
+							<a target="_blank" href="https://www.facebook.com/pages/Chapmans-Gem-Mineral-Shop-Museum/127570647298100" className="fa fa-facebook fa-lg"></a>
 						</li>
 						<li className="social_li social_li_yelp">
-							<a target="_blank" href="https://www.yelp.com/biz/chapmans-gem-and-mineral-shop-and-museum-fortuna" className="fa fa-yelp"></a>
+							<a target="_blank" href="https://www.yelp.com/biz/chapmans-gem-and-mineral-shop-and-museum-fortuna" className="fa fa-yelp fa-lg"></a>
 						</li>
 						<li className="social_li social_li_instagram">
-							<a target="_blank" href="https://www.instagram.com/explore/locations/260451233/" className="fa fa-instagram"></a>
+							<a target="_blank" href="https://www.instagram.com/explore/locations/260451233/" className="fa fa-instagram fa-lg"></a>
 						</li>
 						<li className="social_li social_li_tripadvisor">
-							<a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g32404-d2161569-Reviews-Chapman_s_Gem_Mineral_Shop_Museum-Fortuna_Humboldt_County_California.html" className="fa fa-tripadvisor"></a>
+							<a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g32404-d2161569-Reviews-Chapman_s_Gem_Mineral_Shop_Museum-Fortuna_Humboldt_County_California.html" className="fa fa-tripadvisor fa-lg"></a>
 						</li>
 					</ul>
 					<div className="hamburger">
@@ -57,8 +48,6 @@ export class Nav extends React.Component {
 					      <li><Link to='/museum'>Museum</Link></li>
 					      <li><Link to='/photos'>Gallery</Link></li>
 					      <li><Link to='/contactmain'>Contact</Link></li>
-					      <li><Link to='/rocks'>Inventory</Link></li>
-					      <li><Link to='/signin'>Sign In</Link></li>
 					    </ul>
 					  </div>
 				</nav>

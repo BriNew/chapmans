@@ -46,7 +46,9 @@ export class Story extends React.Component {
 							and her husband Lyle Brown. Sharon and Lyle have taken on the duty of collecting 
 							and adding to the collection. Charlotte still comes out to make sure things are 
 							in order and running smoothly. They hope to open an additional museum displays in the near future.</p>
-							
+							<div className="video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/GYY2iLPWY-I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							</div>
 						</div>
 					</div>
 				</div>

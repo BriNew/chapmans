@@ -13,9 +13,10 @@ body {
 }
 
 html {
-	background-image: url("https://source.unsplash.com/4psNpOezGzQ/1920x450");
-	background-repeat: no-repeat;
+	background-image: url("./gems-brown.jpg");
+/*	background-repeat: no-repeat;*/
 }
+
 
 h1, h2, h3, p, a, button, input, label {
 	font-family: 'Roboto', sans-serif;
@@ -106,32 +107,37 @@ input[type="submit"]:hover {
  }
 
 .content_container_container {
-    background-color: #6E8898;
+    background-color: #4C1C00;
     min-height: 650px;  
     margin-top: 159px;
     height: 100%;
+    opacity: .95;
 }
 
 .content_container {
     max-width: 1000px; 
     margin: 0 auto;
-    background-color: #6E8898;
+    background-color: #4C1C00;
+    opacity: .95;
+    height: 100%;
 }
 
 .content_title {
-    background-color: #D3D0CB;
+    background-color: #FAF3DD !important;
     padding-left: 20%;
     background: rgba(211, 208, 203, 0.8);
     margin-bottom: -160px;
     margin-top: 135px;
+    opacity: .9;
 }
 
 .content {
     display: inline-block;
-    color: #EBE9E7;
+    color: #FAF3DD !important;
     padding-bottom: -20px;
     margin: auto;
-    background-color: #6E8898;
+/*  background-color: #432818 !important;*/
+    background-color: #4C1C00 !important;
     padding-left: 18px;
     padding-right: 18px;
     transform: skew(40deg,0deg);
