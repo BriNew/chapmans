@@ -1,5 +1,4 @@
 ### Chapman's Gem Shop - front end
-https://young-eyrie-40144.herokuapp.com/
 
 This is the front end code for Chapman's Gem & Mineral Shop. The client wanted a site with a simple, modern feel, 
 immediately communicating necessary information to potential customers passing through the area, nothing more. 
